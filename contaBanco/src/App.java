@@ -14,7 +14,7 @@ public class App {
             conta.setAgencia(scanner.next());
             System.out.print("Digite o nome do cliente: ");
             conta.setNomeCliente(scanner.next());
-            scanner.nextLine(); // Consumir a nova linha pendente
+            scanner.nextLine(); 
             System.out.print("Digite o saldo: ");
             conta.setSaldo(scanner.nextDouble());
             System.out.println("Olá " + conta.getNomeCliente()
@@ -23,9 +23,9 @@ public class App {
             
             System.out.println("A conta foi criada com sucesso!");
             
-            scanner.nextLine(); // Consumir a nova linha pendente
+            scanner.nextLine(); 
             
-            scanner.nextLine(); // Esperar o usuário pressionar enter
+            scanner.nextLine(); 
         }
     }
 }
